@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/manpreet-kaur/static/css/main.0888ce2d.chunk.css",
-    "main.js": "/manpreet-kaur/static/js/main.a21b8812.chunk.js",
-    "main.js.map": "/manpreet-kaur/static/js/main.a21b8812.chunk.js.map",
+    "main.css": "/manpreet-kaur/static/css/main.a87e3d2a.chunk.css",
+    "main.js": "/manpreet-kaur/static/js/main.2e67f6fa.chunk.js",
+    "main.js.map": "/manpreet-kaur/static/js/main.2e67f6fa.chunk.js.map",
     "runtime-main.js": "/manpreet-kaur/static/js/runtime-main.aa19a857.js",
     "runtime-main.js.map": "/manpreet-kaur/static/js/runtime-main.aa19a857.js.map",
     "static/css/2.23e42a43.chunk.css": "/manpreet-kaur/static/css/2.23e42a43.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.077a8477.chunk.js.map": "/manpreet-kaur/static/js/3.077a8477.chunk.js.map",
     "index.html": "/manpreet-kaur/index.html",
     "static/css/2.23e42a43.chunk.css.map": "/manpreet-kaur/static/css/2.23e42a43.chunk.css.map",
-    "static/css/main.0888ce2d.chunk.css.map": "/manpreet-kaur/static/css/main.0888ce2d.chunk.css.map",
+    "static/css/main.a87e3d2a.chunk.css.map": "/manpreet-kaur/static/css/main.a87e3d2a.chunk.css.map",
     "static/js/2.35837a2a.chunk.js.LICENSE.txt": "/manpreet-kaur/static/js/2.35837a2a.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/manpreet-kaur/static/media/fontawesome-webfont.f691f37e.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.aa19a857.js",
     "static/css/2.23e42a43.chunk.css",
     "static/js/2.35837a2a.chunk.js",
-    "static/css/main.0888ce2d.chunk.css",
-    "static/js/main.a21b8812.chunk.js"
+    "static/css/main.a87e3d2a.chunk.css",
+    "static/js/main.2e67f6fa.chunk.js"
   ]
 }
