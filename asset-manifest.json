@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/manpreet-kaur/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/manpreet-kaur/static/js/main.e42cebc1.chunk.js",
-    "main.js.map": "/manpreet-kaur/static/js/main.e42cebc1.chunk.js.map",
-    "runtime-main.js": "/manpreet-kaur/static/js/runtime-main.355e2f67.js",
-    "runtime-main.js.map": "/manpreet-kaur/static/js/runtime-main.355e2f67.js.map",
-    "static/js/2.4f86df8c.chunk.js": "/manpreet-kaur/static/js/2.4f86df8c.chunk.js",
-    "static/js/2.4f86df8c.chunk.js.map": "/manpreet-kaur/static/js/2.4f86df8c.chunk.js.map",
-    "static/js/3.cccfcba7.chunk.js": "/manpreet-kaur/static/js/3.cccfcba7.chunk.js",
-    "static/js/3.cccfcba7.chunk.js.map": "/manpreet-kaur/static/js/3.cccfcba7.chunk.js.map",
+    "main.css": "/manpreet-kaur/static/css/main.0888ce2d.chunk.css",
+    "main.js": "/manpreet-kaur/static/js/main.a21b8812.chunk.js",
+    "main.js.map": "/manpreet-kaur/static/js/main.a21b8812.chunk.js.map",
+    "runtime-main.js": "/manpreet-kaur/static/js/runtime-main.aa19a857.js",
+    "runtime-main.js.map": "/manpreet-kaur/static/js/runtime-main.aa19a857.js.map",
+    "static/css/2.23e42a43.chunk.css": "/manpreet-kaur/static/css/2.23e42a43.chunk.css",
+    "static/js/2.35837a2a.chunk.js": "/manpreet-kaur/static/js/2.35837a2a.chunk.js",
+    "static/js/2.35837a2a.chunk.js.map": "/manpreet-kaur/static/js/2.35837a2a.chunk.js.map",
+    "static/js/3.077a8477.chunk.js": "/manpreet-kaur/static/js/3.077a8477.chunk.js",
+    "static/js/3.077a8477.chunk.js.map": "/manpreet-kaur/static/js/3.077a8477.chunk.js.map",
     "index.html": "/manpreet-kaur/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/manpreet-kaur/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.4f86df8c.chunk.js.LICENSE.txt": "/manpreet-kaur/static/js/2.4f86df8c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/manpreet-kaur/static/media/logo.6ce24c58.svg"
+    "static/css/2.23e42a43.chunk.css.map": "/manpreet-kaur/static/css/2.23e42a43.chunk.css.map",
+    "static/css/main.0888ce2d.chunk.css.map": "/manpreet-kaur/static/css/main.0888ce2d.chunk.css.map",
+    "static/js/2.35837a2a.chunk.js.LICENSE.txt": "/manpreet-kaur/static/js/2.35837a2a.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/manpreet-kaur/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.355e2f67.js",
-    "static/js/2.4f86df8c.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.e42cebc1.chunk.js"
+    "static/js/runtime-main.aa19a857.js",
+    "static/css/2.23e42a43.chunk.css",
+    "static/js/2.35837a2a.chunk.js",
+    "static/css/main.0888ce2d.chunk.css",
+    "static/js/main.a21b8812.chunk.js"
   ]
 }
