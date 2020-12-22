@@ -17,7 +17,7 @@ class Main extends Component{
         return(
             <div>
                 <Header />
-                <Home project={this.state.projects}/>
+                <Home projectCardsMain={this.state.projects}/>
                 <Footer/>
             </div>
         );

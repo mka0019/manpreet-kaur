@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { Navbar, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
+import { Navbar, Nav,NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -31,15 +31,10 @@ class Header extends Component {
             <React.Fragment>
                 <Navbar light className="bg-white" sticky="top" expand="md">
                     <div className="container">
-                        {/* <NavbarBrand className="mr-auto" href="/home">Manpreet Kaur</NavbarBrand> */}
+                        <NavbarBrand className="mr-auto" href="#home">Manpreet Kaur</NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav}  />
                         <Collapse isOpen={this.state.isNavOpen} navbar  className="justify-content-end">
                             <Nav navbar>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="#home">
-                                        <span className="" /> Home
-                                    </NavLink>
-                                </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="#about">
                                         <span className="" /> About
