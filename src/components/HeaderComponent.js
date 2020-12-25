@@ -10,8 +10,21 @@ class Header extends Component {
         this.toggleModal = this.toggleModal.bind(this);
         this.state = {
           isNavOpen: false,
-          isModalOpen: false
+          isModalOpen: false,
+          bg: "transparent"
         };
+    }
+
+    listenScrollEvent = e => {
+        if (window.scrollY > 20) {
+          this.setState({ bg: "scroll" });
+        } else {
+          this.setState({ bg: "transparent" });
+        }
+      };
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.listenScrollEvent);
     }
 
     toggleNav() {
@@ -25,11 +38,10 @@ class Header extends Component {
         });
     }
 
-
     render() {
         return (
             <React.Fragment>
-                <Navbar light className="bg-white" sticky="top" expand="md">
+                <Navbar className={this.state.bg} fixed="top" expand="md" id="navbar-id">
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="#home">Manpreet Kaur</NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav}  />
@@ -41,13 +53,13 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="#resume">
-                                        <span className="" /> Resume
+                                    <NavLink className="nav-link" to="#projects">
+                                        <span className="" /> Projects
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="#projects">
-                                        <span className="" /> Projects
+                                    <NavLink className="nav-link" to="#resume">
+                                        <span className="" /> Resume
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
