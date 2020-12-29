@@ -1,6 +1,9 @@
 import React, { Component }  from 'react';
 import { Navbar, Nav,NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+//import { NavLink } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
+
+
 
 class Header extends Component {
 
@@ -23,8 +26,10 @@ class Header extends Component {
         }
       };
 
+    
     componentDidMount() {
         window.addEventListener("scroll", this.listenScrollEvent);
+    
     }
 
     toggleNav() {
@@ -43,33 +48,33 @@ class Header extends Component {
             <React.Fragment>
                 <Navbar className={this.state.bg} fixed="top" expand="md" id="navbar-id">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="#home">Manpreet Kaur</NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNav}  />
-                        <Collapse isOpen={this.state.isNavOpen} navbar  className="justify-content-end">
-                            <Nav navbar>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="#about">
-                                        <span className="" /> About
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="#projects">
-                                        <span className="" /> Projects
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="#resume">
-                                        <span className="" /> Resume
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="#contact">
-                                        <span className="" /> Contact
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </div>
+                            <NavbarBrand className="mr-auto" href="#home">Manpreet Kaur</NavbarBrand>
+                            <NavbarToggler onClick={this.toggleNav}  />
+                            <Collapse isOpen={this.state.isNavOpen} navbar  className="justify-content-end">
+                                <Nav navbar>
+                                    <NavItem>
+                                        <NavHashLink smooth className="nav-link selected" to="#about">
+                                            <span className="" /> About
+                                        </NavHashLink >
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavHashLink  smooth className="nav-link selected" to="#projects">
+                                            <span className="" /> Projects
+                                        </NavHashLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavHashLink smooth className="nav-link selected" to="#resume">
+                                            <span className="" /> Resume
+                                        </NavHashLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavHashLink smooth className="nav-link selected" to="#contact">
+                                            <span className="" /> Contact
+                                        </NavHashLink>
+                                    </NavItem>
+                                </Nav>
+                            </Collapse>
+                        </div>
                 </Navbar>
             </React.Fragment>
         );

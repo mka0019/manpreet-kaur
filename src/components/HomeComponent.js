@@ -43,7 +43,7 @@ function RenderProjectCards({pc}){
                     <CardImg src={pc.image} alt={pc.name} className="img-fluid" />
                 </div>
                 <CardBody className="card-img-overlay">
-                    <CardLink href={pc.link} target="_blank">{pc.title} &gt;</CardLink>
+                    <CardLink href={pc.link} target="_blank"><span className="text">{pc.title} &gt;</span></CardLink>
                 </CardBody>
             </Card>
     );
