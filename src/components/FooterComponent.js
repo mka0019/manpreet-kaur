@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineLinkedin } from "react-icons/ai";
 // import { Link } from 'react-router-dom';
 
 
@@ -20,7 +21,8 @@ function Footer(props){
                                 <a href="mailto:mghotra1993@gmail.com" title="link to send email"><span class="icon ion-ios-email-outline" aria-hidden="true"></span></a>
                                 </li>
                                 <li>
-                                <a href="https://www.linkedin.com/in/manpreet-kaur-260905140/" title="link to go Manpreet's linkedin" target="_blank" rel="noopener noreferrer"><span class="icon ion-social-linkedin-outline" aria-hidden="true"></span>
+                                <a href="https://www.linkedin.com/in/manpreet-kaur-260905140/" title="link to go Manpreet's linkedin" target="_blank" rel="noopener noreferrer">
+                                    {/* <span class="icon ion-social-linkedin-outline" aria-hidden="true"></span> */} <AiOutlineLinkedin />
                                 </a>
                                 </li>
                                 <li>
