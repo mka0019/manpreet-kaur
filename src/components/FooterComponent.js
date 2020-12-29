@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineLinkedin, AiOutlineMail, AiFillGithub } from "react-icons/ai";
 // import { Link } from 'react-router-dom';
 
 
@@ -18,16 +18,19 @@ function Footer(props){
                         <div className="col">
                             <ul class="list-unstyled media-links">
                                 <li>
-                                <a href="mailto:mghotra1993@gmail.com" title="link to send email"><span class="icon ion-ios-email-outline" aria-hidden="true"></span></a>
+                                    <a href="mailto:mghotra1993@gmail.com" title="link to send email">
+                                        <AiOutlineMail aria-hidden="true" className="icon"/>
+                                    </a>
                                 </li>
                                 <li>
-                                <a href="https://www.linkedin.com/in/manpreet-kaur-260905140/" title="link to go Manpreet's linkedin" target="_blank" rel="noopener noreferrer">
-                                    {/* <span class="icon ion-social-linkedin-outline" aria-hidden="true"></span> */} <AiOutlineLinkedin />
-                                </a>
+                                    <a href="https://www.linkedin.com/in/manpreet-kaur-260905140/" title="link to go Manpreet's linkedin" target="_blank" rel="noopener noreferrer">
+                                        <AiOutlineLinkedin  aria-hidden="true" className="icon"/>
+                                    </a>
                                 </li>
                                 <li>
-                                <a href="https://github.com/mka0019" title="link to go to Manpreet's github" target="_blank" rel="noopener noreferrer"><span class="icon ion-social-github-outline" aria-hidden="true"></span>
-                                </a>
+                                    <a href="https://github.com/mka0019" title="link to go to Manpreet's github" target="_blank" rel="noopener noreferrer">
+                                        <AiFillGithub aria-hidden="true" className="icon"/>
+                                    </a>
                                 </li>
                             </ul>
                             <p>Copyright 2020. Manpreet Kaur.</p>
