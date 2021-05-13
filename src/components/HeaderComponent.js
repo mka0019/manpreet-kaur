@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 import { Navbar, Nav,NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 //import { NavLink } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
+import Scrollspy from "react-scrollspy";
 
 
 
@@ -52,9 +53,13 @@ class Header extends Component {
                             <NavbarToggler onClick={this.toggleNav}  />
                             <Collapse isOpen={this.state.isNavOpen} navbar  className="justify-content-end">
                                 <Nav navbar>
+                                    <Scrollspy 
+                                        items={["about", "projects", "resume", "contact"]}
+                                        currentClassName="is-current"
+                                    >
                                     <NavItem>
                                         <NavHashLink smooth className="nav-link selected" to="#about">
-                                            <span className="" /> About
+                                             About
                                         </NavHashLink >
                                     </NavItem>
                                     <NavItem>
@@ -72,6 +77,7 @@ class Header extends Component {
                                             <span className="" /> Contact
                                         </NavHashLink>
                                     </NavItem>
+                                    </Scrollspy>
                                 </Nav>
                             </Collapse>
                         </div>

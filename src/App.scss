@@ -10,6 +10,7 @@ body{
   // position: relative;
 }
 
+
 p{
   font-size:1.1rem;
 }
@@ -23,7 +24,17 @@ p{
        color:$base-gothic;
     }
   }
-  
+  .navbar-nav{
+    ul{
+      display:flex;
+      .nav-item{
+        list-style: none;
+      }
+      @media (max-width: 767px){
+        display: inline;
+      }
+    }
+  }  
 }
 
 .scroll {
@@ -32,9 +43,10 @@ p{
   padding:20px 0px;
 }
 
-// .active{
-//   color: red !important;
-// }
+
+.is-current a{
+  color:$base-gothic!important;
+}
 
 
 .jumbotron {
@@ -111,14 +123,13 @@ p{
     transition: .5s ease;
     background-color: $base-gothic;
     a{
-      color:$base-beige;
       text-decoration:none;
     }
 
     .text{
       opacity:1;
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -126,6 +137,11 @@ p{
       text-align: center;
       font-size:1.25rem;
       font-weight:900;
+      color:$base-beige;
+    }
+
+    .card-text{
+      top:60%;
     }
   }
   &:hover .card-img-overlay{

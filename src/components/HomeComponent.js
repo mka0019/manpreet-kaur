@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Card, CardImg, CardBody, CardLink} from 'reactstrap';
+import CardText from 'reactstrap/lib/CardText';
 // import { Link } from 'react-router-dom';
 import AvatarImage from '../imgs/Avatar-Maker.svg'
 
@@ -44,6 +45,7 @@ function RenderProjectCards({pc}){
                 </div>
                 <CardBody className="card-img-overlay">
                     <CardLink href={pc.link} target="_blank"><span className="text">{pc.title} &gt;</span></CardLink>
+                    <CardText className="text">CMS: {pc.cms}</CardText>
                 </CardBody>
             </Card>
     );
@@ -66,8 +68,8 @@ function Home(props){
             <section id="projects">
                 <div className="row mb-5">
                     <div className="col-sm-8 text-center mx-auto fadeUp">
-                        <h2 className="mb-4">QA Tester</h2>
-                        <p> As a QA Tester, I have planned and studied client specs, design specs and wireframes, in order to detect and diagnose errors and bugs while in QA process. Applyed a user prospective to ensure the website is UX/UI friendly. Administer website functionality tests: Cross-browser and cross-device. Worked with project managers to ensure bugs are tracked and resolved. Below are a few projects that I have been a part of:</p>
+                        <h2 className="mb-4">Projects I have been part of as: QA Tester and Webmaster</h2>
+                        {/* <p> As a QA Tester, I have planned and studied client specs, design specs and wireframes, in order to detect and diagnose errors and bugs while in QA process. Applyed a user prospective to ensure the website is UX/UI friendly. Administer website functionality tests: Cross-browser and cross-device. Worked with project managers to ensure bugs are tracked and resolved. Below are a few projects that I have been a part of:</p> */}
                     </div>
                 </div>
                 <div className="container">
