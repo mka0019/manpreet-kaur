@@ -45,7 +45,7 @@ function RenderProjectCards({pc}){
                 </div>
                 <CardBody className="card-img-overlay">
                     <CardLink href={pc.link} target="_blank"><span className="text">{pc.title} &gt;</span></CardLink>
-                    <CardText className="text">CMS: {pc.cms}</CardText>
+                    <CardText className="text">CMS: {pc.cms} </CardText>
                 </CardBody>
             </Card>
     );
