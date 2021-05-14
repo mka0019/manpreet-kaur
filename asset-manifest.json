@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/manpreet-kaur/static/css/main.c5679139.chunk.css",
-    "main.js": "/manpreet-kaur/static/js/main.8c26acc8.chunk.js",
-    "main.js.map": "/manpreet-kaur/static/js/main.8c26acc8.chunk.js.map",
-    "runtime-main.js": "/manpreet-kaur/static/js/runtime-main.9631b5c3.js",
-    "runtime-main.js.map": "/manpreet-kaur/static/js/runtime-main.9631b5c3.js.map",
+    "main.css": "/manpreet-kaur/static/css/main.03ad961a.chunk.css",
+    "main.js": "/manpreet-kaur/static/js/main.2df361d0.chunk.js",
+    "main.js.map": "/manpreet-kaur/static/js/main.2df361d0.chunk.js.map",
+    "runtime-main.js": "/manpreet-kaur/static/js/runtime-main.f55bb5eb.js",
+    "runtime-main.js.map": "/manpreet-kaur/static/js/runtime-main.f55bb5eb.js.map",
     "static/css/2.23e42a43.chunk.css": "/manpreet-kaur/static/css/2.23e42a43.chunk.css",
-    "static/js/2.ff663741.chunk.js": "/manpreet-kaur/static/js/2.ff663741.chunk.js",
-    "static/js/2.ff663741.chunk.js.map": "/manpreet-kaur/static/js/2.ff663741.chunk.js.map",
-    "static/js/3.6b9b37d4.chunk.js": "/manpreet-kaur/static/js/3.6b9b37d4.chunk.js",
-    "static/js/3.6b9b37d4.chunk.js.map": "/manpreet-kaur/static/js/3.6b9b37d4.chunk.js.map",
+    "static/js/2.08fe9395.chunk.js": "/manpreet-kaur/static/js/2.08fe9395.chunk.js",
+    "static/js/2.08fe9395.chunk.js.map": "/manpreet-kaur/static/js/2.08fe9395.chunk.js.map",
+    "static/js/3.6129bd14.chunk.js": "/manpreet-kaur/static/js/3.6129bd14.chunk.js",
+    "static/js/3.6129bd14.chunk.js.map": "/manpreet-kaur/static/js/3.6129bd14.chunk.js.map",
     "index.html": "/manpreet-kaur/index.html",
     "static/css/2.23e42a43.chunk.css.map": "/manpreet-kaur/static/css/2.23e42a43.chunk.css.map",
-    "static/css/main.c5679139.chunk.css.map": "/manpreet-kaur/static/css/main.c5679139.chunk.css.map",
-    "static/js/2.ff663741.chunk.js.LICENSE.txt": "/manpreet-kaur/static/js/2.ff663741.chunk.js.LICENSE.txt",
+    "static/css/main.03ad961a.chunk.css.map": "/manpreet-kaur/static/css/main.03ad961a.chunk.css.map",
+    "static/js/2.08fe9395.chunk.js.LICENSE.txt": "/manpreet-kaur/static/js/2.08fe9395.chunk.js.LICENSE.txt",
     "static/media/Avatar-Maker.b075b564.svg": "/manpreet-kaur/static/media/Avatar-Maker.b075b564.svg",
+    "static/media/adaa.18af286d.png": "/manpreet-kaur/static/media/adaa.18af286d.png",
     "static/media/arcwestchester.c1ba7584.png": "/manpreet-kaur/static/media/arcwestchester.c1ba7584.png",
     "static/media/bravecto.257830c4.png": "/manpreet-kaur/static/media/bravecto.257830c4.png",
     "static/media/broadway-league.3c4a69e1.png": "/manpreet-kaur/static/media/broadway-league.3c4a69e1.png",
@@ -24,14 +25,16 @@
     "static/media/dogflu-old.3fbb87e1.png": "/manpreet-kaur/static/media/dogflu-old.3fbb87e1.png",
     "static/media/essentialspetcare.3e91786c.png": "/manpreet-kaur/static/media/essentialspetcare.3e91786c.png",
     "static/media/font-awesome.css": "/manpreet-kaur/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/goya.d2de8629.png": "/manpreet-kaur/static/media/goya.d2de8629.png",
     "static/media/homeagain.df2c7350.jpg": "/manpreet-kaur/static/media/homeagain.df2c7350.jpg",
+    "static/media/remitter.51220ae4.png": "/manpreet-kaur/static/media/remitter.51220ae4.png",
     "static/media/tri-heart.c88c0f94.jpg": "/manpreet-kaur/static/media/tri-heart.c88c0f94.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9631b5c3.js",
+    "static/js/runtime-main.f55bb5eb.js",
     "static/css/2.23e42a43.chunk.css",
-    "static/js/2.ff663741.chunk.js",
-    "static/css/main.c5679139.chunk.css",
-    "static/js/main.8c26acc8.chunk.js"
+    "static/js/2.08fe9395.chunk.js",
+    "static/css/main.03ad961a.chunk.css",
+    "static/js/main.2df361d0.chunk.js"
   ]
 }
